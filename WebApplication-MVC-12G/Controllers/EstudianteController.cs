@@ -62,6 +62,7 @@ namespace WebApplication_MVC_12G.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(estudiante);
         }
 
